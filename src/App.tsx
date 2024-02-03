@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Styler from "./Styler"
+import Styler from "./Styler";
+
 function App() {
-  const [count, setCount] = useState(0);
   Styler();
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="w-100vw h-mn-100vh bg-black tc-white display-flex flex-parent-center">
+        <header>
+          <h1 className="fs-3rem">#Hello</h1>
+          <p className="fs-12px tc-aaa fw-500">
+            Edit{" "}
+            <code className="bg-111 fs-80% ph-5px pv-3px br-3px">
+              /src/App.tsx
+            </code>{" "}
+            and{" "}
+            <code className="bg-111 fs-80% ph-5px pv-3px br-3px">
+              /src/Styler.tsx
+            </code>
+          </p>
+        </header>
       </div>
-      <h1 className="tc-red">Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
