@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import tenoxui, { defineProps, makeStyles, moreColor } from "tenoxui";
 
 const Styler: React.FC = () => {
+  // using `useEffect` to achive realtime styling
   useEffect(() => {
     defineProps({
       // Custom type and property that can be used
