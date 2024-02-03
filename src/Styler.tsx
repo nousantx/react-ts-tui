@@ -19,8 +19,6 @@ const Styler: React.FC = () => {
       ".flex": "dis-flex",
       ".fx-ctr,.flex-center": "dis-flex flex-parent-center",
       ".fd-col": "fd-column",
-      ".form-wrapper form input":
-        "p-15px bdr-none bd-bottom-[input__border] w-250px",
     });
 
     moreColor();
