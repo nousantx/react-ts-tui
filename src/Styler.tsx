@@ -19,13 +19,14 @@ const Styler: React.FC = () => {
       ".flex": "dis-flex",
       ".fx-ctr,.flex-center": "dis-flex flex-parent-center",
       ".fd-col": "fd-column",
+      ".fixed": "post-fixed",
     });
 
     moreColor();
     tenoxui();
   }, []);
 
-  return null; 
+  return null;
 };
 
 export default Styler;
