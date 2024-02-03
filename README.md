@@ -7,6 +7,36 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Adding utility-classes with TenoxUI
+
+Edit `src/Styler.tsx` to add or change the functionality of tenoxui on your project. Example of adding new styles or classes :
+
+```tsx
+
+defineProps({/* Some props and properties */});
+
+makeStyles({
+  // previous code...
+  ".my-box": "m-1.25rem p-2.5rem", // margin: 1.25rem; padding: 2.5rem;
+  ".text-nowrap": "white-space-nowrap", // white-space: nowrap
+});
+
+
+// re-initiate tenoxui
+tenoxui()
+```
+
+after you define it, you can use the custom styles or classes on your element.
+
+Usage on your element :
+
+```html
+<div class="my-box">...</div>
+
+<h1 class="text-nowrap">lorem...</h1>
+```
+
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
