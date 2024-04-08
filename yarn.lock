@@ -1575,10 +1575,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-tenoxui@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/tenoxui/-/tenoxui-0.5.0.tgz#39e056b1eaa9664eef7491d796905bd8a36296a9"
-  integrity sha512-bBAs56Pn3p6lnva4iITqx7a3abtG81+4Kw1ELPTFExxaUzkJULXk4BK2Zvro8A6Q14wNeOf61137aOm8oKNrvA==
+tenoxui@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/tenoxui/-/tenoxui-0.6.1.tgz#f177e3f4abfe7fe5fe18935673ef568c4079b442"
+  integrity sha512-Ked5c6pn7MaLv8wMFfgYP4QJcpdnc6BLXA/aX+uN76LMeTJTzgjtvRRswJzrmpNxYkx9IrYz6CouERy1cu8y5g==
 
 text-table@^0.2.0:
   version "0.2.0"
