@@ -1,9 +1,9 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import tenoxui, { defineProps, makeStyles, moreColor } from "tenoxui";
 
 const Styler: React.FC = () => {
   // using `useEffect` to achive realtime styling
-  useEffect(() => {
+  useLayoutEffect(() => {
     defineProps({
       // Custom type and property that can be used
       dis: ["display"],
